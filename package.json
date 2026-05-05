@@ -1,0 +1,18 @@
+{
+  "name": "agent-cli",
+  "version": "1.0.0",
+  "description": "Assignment ~02 AI Agent CLI Tool",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "openai": "^4.77.0"
+  }
+}
